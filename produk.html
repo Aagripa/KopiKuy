@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Produk</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="vendor/bootstrap/lux.css" />
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap-icons.css" />
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <style>
+      /* tulis kode CSS internal di bawah sini */
+
+      .card-img-top {
+        height: 250px; /* Atur tinggi gambar agar seragam */
+        object-fit: cover; /* Pastikan gambar menutupi area tanpa distorsi */
+      }
+
+      .card-body {
+        min-height: 150px; /* Atur tinggi minimum dari card body agar seragam */
+      }
+      /* Batas Akhir penulisan kode CSS internal */
+    </style>
+  </head>
+
+  <body>
+    <!-- Tulis Kode Bootstrap Di Bawah Sini -->
+    <nav class="navbar navbar-dark bg-success navbar-expand-lg bisadicopy">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo/logo_kuy.png" height="40" alt="image" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav11"
+          aria-controls="navbarNav11"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav11">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html#best-seller">Best Seller</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#our-team">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#review">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact-us">Contact Us</a>
+            </li>
+          </ul>
+          <a
+            target="_blank"
+            class="btn btn-outline-light ms-md-3"
+            href="https://wa.me/6281212345678?text=Halo saya mau pesan kopi"
+          >
+            Chat
+            <i class="bi bi-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="produk text-center my-5 py-5">
+        <div class="container">
+          <h1>Pilih Produk Anda</h1>
+          <p class="fs-4">Nikmati produk andalan yang menjadi kualitas kami.</p>
+          <hr class="border border-success border-3 opacity-75" />
+
+          <!-- Ini Untuk Select -->
+
+          <div class="form-floating">
+            <select
+              class="form-select"
+              id="select_kopi"
+              aria-label="Floating label select example"
+            >
+              <option selected disabled>-</option>
+              <option value="arabica">Arabica</option>
+              <option value="robusta">Robusta</option>
+              <option value="nonkopi">Non Kopi</option>
+            </select>
+            <label for="select_kopi">Pilih Jenis Kopi</label>
+          </div>
+
+          <div
+            id="baris_produk"
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 text-center mt-5"
+          >
+            <div class="col mb-4">
+              <div class="card">
+                <img
+                  src="images/produk/product_capuchino.jpg"
+                  class="card-img-top img"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <div class="row hargasize my-4">
+                    <div class="col">250 ML</div>
+                    <div class="col text-primary fw-bold">25.000</div>
+                  </div>
+                  <a href="#" class="btn btn-success w-100">
+                    <i class="bi bi-cart-check"></i> Beli</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card">
+                <img
+                  src="images/produk/nescafe-feed.jpg"
+                  class="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Nescafe OG</h5>
+                  <div class="row hargasize my-4">
+                    <div class="col">250 ML</div>
+                    <div class="col text-primary fw-bold">10.000</div>
+                  </div>
+                  <a href="#" class="btn btn-success w-100">
+                    <i class="bi bi-cart-check"></i> Beli</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4">
+              <div class="card">
+                <img
+                  src="https://assets-pergikuliner.com/8h6foHDLpzCgZuConWVobCP3QeM=/385x290/smart/https://assets-pergikuliner.com/uploads/image/picture/1298056/picture-1551685268.PNG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">JJ Caramel Machiato</h5>
+                  <div class="row hargasize my-4">
+                    <div class="col">16 Oz</div>
+                    <div class="col text-primary fw-bold">30.000</div>
+                  </div>
+                  <a href="#" class="btn btn-success w-100">
+                    <i class="bi bi-cart-check"></i> Beli</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kopi Hitam</h5>
+                  <div class="row hargasize my-4">
+                    <div class="col">110 ML</div>
+                    <div class="col text-primary fw-bold">5.000</div>
+                  </div>
+                  <a href="#" class="btn btn-success w-100">
+                    <i class="bi bi-cart-check"></i> Beli</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="riki-block footer-small py-4 bg-success">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-8">
+            <ul class="nav justify-content-center justify-content-md-start">
+              <li class="nav-item active">
+                <a class="nav-link text-primary" href="index.html#best-seller"
+                  >Best Seller</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="index.html#our-team"
+                  >Our Team</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="index.html#review"
+                  >Review</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="index.html#contact-us"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right">
+            © 2024 Fadhil Raihan K . All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Batas Akhir penulisan kode Bootstrap -->
+    <script>
+      /* Tulis Javascript Di bawah Sini */
+
+      var data_kopi = [];
+      var data_pilihan = [];
+      var pilihan = "";
+      ambilData();
+
+      function ambilData() {
+        var online = "https://rikikurnia.com/prakerja/api/kopi";
+        var offline = "data.json";
+        $.getJSON(online).then(function (data) {
+          data_kopi = data;
+          console.log(data_kopi);
+        });
+      }
+
+      function tampilkanData() {
+        data_pilihan = data_kopi[pilihan];
+        console.log("dapil", data_pilihan);
+        baris_produk.innerHTML = "";
+
+        data_pilihan.forEach((kopi) => {
+          baris_produk.innerHTML += `<div class="col mb-4">
+                        <div class="card">
+                            <img src="${kopi.foto}"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">${kopi.nama}</h5>
+                                <div class="row hargasize my-4">
+                                    <div class="col">
+                                        ${kopi.size}
+                                    </div>
+                                    <div class="col text-primary fw-bold">
+                                        ${kopi.harga}
+                                    </div>
+                                </div>
+                                <a href="${kopi.link}" class="btn btn-primary w-100">
+                                    <i class="bi bi-cart-check"></i> Beli</a>
+                            </div>
+                        </div>
+                    </div>`;
+        });
+      }
+
+      select_kopi.onchange = function () {
+        pilihan = select_kopi.value;
+        console.log(pilihan);
+        tampilkanData();
+      };
+      /* Batas Akhir penulisan kode Javascript */
+    </script>
+  </body>
+</html>
