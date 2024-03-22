@@ -231,7 +231,7 @@
       function ambilData() {
         var online = "https://rikikurnia.com/prakerja/api/kopi";
         var offline = "data.json";
-        $.getJSON(online).then(function (data) {
+        $.getJSON(offline).then(function (data) {
           data_kopi = data;
           console.log(data_kopi);
         });
